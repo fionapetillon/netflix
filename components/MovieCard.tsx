@@ -28,7 +28,7 @@ const MovieCard: React.FC<MovieCardProps> = ({data}) => {
                             <BiChevronDown size={30} className="text-white group-hover/item:text-neutral-300" />
                         </div>
                     </div>
-                    <p className="text-green-400 font-semibold mt-4">New <span className="text-white">2023</span></p>
+                    <p className="text-green-400 font-semibold mt-4">Nouveau <span className="text-white">2023</span></p>
                     <div className="flex flex-row mt-4 gap-2 items-center">
                         <p className="text-[10px] lg:text-sm">{data.duration}</p>
                     </div>

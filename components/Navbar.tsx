@@ -40,15 +40,15 @@ const Navbar = () => {
             <div className={`px-4 md:px-16 py-6 flex flex-row items-center transition duration-500 ${showBackground ? 'bg-zinc-900 bg-opacity-90' : ''}`}>
                 <img src="/images/logo.png" alt="logo" className="h-4 lg:h-7" />
                 <div className="flex-row ml-8 gap-7 hidden lg:flex">
-                    <NavbarItem label="Home"/>
-                    <NavbarItem label="Series"/>
+                    <NavbarItem label="Accueil"/>
+                    <NavbarItem label="Séries"/>
                     <NavbarItem label="Films"/>
-                    <NavbarItem label="New & Popular"/>
-                    <NavbarItem label="My List"/>
-                    <NavbarItem label="Browse by languages"/>
+                    <NavbarItem label="Nouveautés"/>
+                    <NavbarItem label="Ma Liste"/>
+                    <NavbarItem label="Rechercher par langues"/>
                 </div>
                 <div onClick={toggleMobileMenu} className="lg:hidden flex flex-row items-center gap-2 ml-8 cursor-pointer relative">
-                    <p className="text-sm">Browse</p>
+                    <p className="text-sm">Rechercher</p>
                     <BsChevronDown className={`text-white w-4 transition ${showMobileMenu ? 'rotate-180' : 'rotate-0' }`}/>
                     <MobileMenu visible={showMobileMenu} />
                 </div>
